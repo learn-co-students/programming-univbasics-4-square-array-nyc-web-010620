@@ -1,19 +1,16 @@
-def square_array(numbers)
-  numbers = [1,2,3]
+def square_array(array)
   counter = 0
 
-  while counter < numbers.length do
-    puts numbers[counter]**2
+  while array[counter] do
+    puts array[counter]**2
     counter += 1
   end
 end
 
-def square_array(new_numbers)
-  new_numbers = [9,10,16,25]
-  counter = 0
+numbers = [1,2,3]
 
-  while counter < new_numbers.length do
-    puts new_numbers[counter]**2
-    counter += 1
-  end
-end
+square_array(numbers)
+
+new_numbers = [9,10,16,25]
+
+square_array(new_numbers)
